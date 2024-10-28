@@ -167,8 +167,48 @@ h5{
 .blue-text{
     color: #567c8d;
 }
-
-@media screen and (min-width: 768px) and (min-height: 1024px){
+@media screen and (min-width: 360px) and (max-width: 767px) and (min-height: 640px) and (max-height: 899px){
+    header{
+        width: 81vh;
+    }
+    nav{
+        height: fit-content;
+        width: 82.5vh;
+        position: static;
+    }
+    video{
+        width: 410px;
+    }
+    .about-me{
+        margin: 0;
+    }
+    .activities{
+        margin: 0;
+    }
+    h5{
+        margin-left: 0;
+    }
+    .game{
+        margin-left: 0;
+    }
+    .about-me img{
+        display: flex;
+        flex-direction: column;
+    }
+    .music{
+        display: block;
+     }
+    .supernova{
+        display: block;
+    }
+    .meet{
+        display: block;
+    }
+    .game{
+        display: block;
+    }
+}
+@media screen and (min-width: 768px) and (min-height: 1024px) and (max-width: 1219px) and (max-height: 1300px){
     nav{
         height: fit-content;
         width: 70.5vh;
